@@ -5,5 +5,7 @@ atcoder/*.exe
 c#/*.exe
 NYPC2022/
 NYPC2022
+.vscode/
+.vscode
 
 
