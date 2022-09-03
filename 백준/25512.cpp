@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int sum;
+long long sum;
 bool flag;
 int n;
 vector<bool> visited;
@@ -40,7 +40,7 @@ int main(){
     }
     dfs(0,0);
 //    cout<<'\n'<<sum;
-    int sum1 = sum;
+    long long sum1 = sum;
     sum=0;
     fill(visited.begin(),visited.end(),0);
     dfs(0,1);
